@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        .fdiv {
+
+            background-color: aqua;
+            border: 5px solid black;
+            height: 50px;
+            width: 25px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(0deg);
+            animation: rotateClockwise 2s infinite linear;
+
+        }
+
+        .sdiv {
+            background-color: aqua;
+            border: 5px solid black;
+            height: 25px;
+            width: 50px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(0deg);
+            animation: rotateCounter 2s infinite linear;
+        }
+
+        @keyframes rotateClockwise {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+
+            50% {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+
+        @keyframes rotateCounter {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }          
+
+            50% {
+                transform: translate(-50%, -50%) rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fdiv"></div>
+    <div class="sdiv"></div>
+</body>
+
+</html>

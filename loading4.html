@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Filling Bar Loader</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f2f2f2;
+    }
+
+    .loader-container {
+      width: 300px;
+      height: 20px;
+      background-color: #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    }
+
+    .loader-bar {
+      height: 100%;
+      background-color: #4caf50;
+      animation: fill 4s infinite ease-in-out;
+    }
+
+    @keyframes fill {
+      0% {
+        width: 0%;
+      }
+      50% {
+        width: 100%;
+      }
+      100% {
+        width: 0%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="loader-container">
+    <div class="loader-bar"></div>
+  </div>
+
+</body>
+</html>
