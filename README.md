@@ -1,7 +1,3 @@
-Here's a professional and informative `README.md` file you can use to upload your four HTML loading animation files to GitHub:
-
----
-
 # 🎬 CSS Loading Animations
 
 A collection of simple and visually engaging loading animations created using only HTML and CSS. These loaders can be easily reused in any web project where you want to show a loading state.
@@ -55,6 +51,4 @@ A horizontal bar that smoothly fills and empties.
 
 This project is open-source and available under the [MIT License](LICENSE).
 
----
 
-Let me know if you’d like to include screenshots or a live demo link in the README.
